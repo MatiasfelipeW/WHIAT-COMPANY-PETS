@@ -1,0 +1,239 @@
+
+
+
+
+/* Ajustes de dimensiones para el header y la imagen */
+
+/* Estilos generales para el header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #34495e; /* Color de fondo del header */
+    color: white;
+    position: relative;
+}
+
+/* Estilos para la imagen del logo */
+.imglogo {
+    margin-bottom: 10px;
+}
+
+.imglogo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para el texto del encabezado */
+.textoencabezado {
+    margin-bottom: 50px; /* Espacio para la barra de navegación */
+}
+
+/* Estilos para la barra de navegación */
+.navegadorprincipal {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #045f9b; /* Color de fondo de la barra de navegación */
+}
+
+.navegadorprincipal nav {
+    padding: 10px 0;
+}
+
+.navegadorprincipal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navegadorprincipal ul li {
+    margin: 0 15px;
+}
+
+.navegadorprincipal ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.navegadorprincipal ul li a:hover {
+    background-color: #1abc9c; /* Color de fondo al pasar el cursor */
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 35px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    disp
+    background: url('img/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: rgb(12, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#productos {
+    padding: 50px;
+    text-align: center;
+}
+
+.productos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.add-to-cart {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #27ae60;
+}
+
+footer {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+body{
+    background-color: #cddde7;
+}
+
+
+/* Estilos para el ícono de WhatsApp */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 80px; /* Ajusta la distancia desde el borde inferior */
+    right: 20px;  /* Ajusta la distancia desde el borde derecho */
+    z-index: 1000; /* Asegura que el ícono esté por encima de otros elementos */
+}
+
+.whatsapp-icon img {
+    width: 100px; /* Ajusta el tamaño del ícono */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+
+/* Estilos para el footer */
+.footer {
+    background-color: #34495e; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espacio interno del footer */
+    text-align: center; /* Alinear texto al centro */
+    font-size: 14px; /* Tamaño de fuente del footer */
+}
+
+/* Estilos para los enlaces */
+.footer a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+.footer a:visited {
+    color: rgb(198, 202, 199); /* Color del texto del enlace después de ser visitado */
+}
+
+/* Estilos para la imagen del footer */
+.imagenfooter img {
+    max-width: 200px; /* Tamaño máximo de la imagen */
+    height: auto; /* Mantener proporción de la imagen */
+}
+
+/* Estilos para el botón personalizado */
+.custom-button {
+    background-color: #2980b9; /* Color inicial del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Quitar borde del botón */
+    padding: 10px 20px; /* Espacio interno del botón */
+    font-size: 14px; /* Tamaño de fuente del botón */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    transition: background-color 2.5s; /* Suavizar el cambio de color */
+    animation: colorChange 3.6s infinite; /* Aplicar la animación */
+}
+
+/* Definición de la animación de cambio de color */
+@keyframes colorChange {
+    0% { background-color: #2980b9; } /* Color inicial */
+    25% { background-color: #3498db; } /* Color en 25% de la animación */
+    50% { background-color: #1abc9c; } /* Color en 50% de la animación */
+    75% { background-color: #e74c3c; } /* Color en 75% de la animación */
+    100% { background-color: #2980b9; } /* Color final (mismo que el inicial) */
+}
