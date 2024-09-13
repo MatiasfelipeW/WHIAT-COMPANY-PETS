@@ -5,7 +5,9 @@
 /* Ajustes de dimensiones para el header y la imagen */
 
 /* Estilos generales para el header */
-header {
+
+header  {
+
     display: flex;
     flex-direction: column;
     align-items: center;
