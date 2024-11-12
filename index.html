@@ -3,114 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Veterinaria Online - Insumos y Concentrados</title>
-<link rel="stylesheet" href="style.css"></head>
-<link rel="stylesheet" href="scripts.js">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+
 <body>
-    <!DOCTYPE html>
-    <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mi Sitio Web</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-    
-        <!-- Header -->
-        <header>
-            <section class="navegadorprincipal">
-                <nav>
-                    <ul>
-                        <li><a href="#home">Inicio</a></li>
-                        <li><a href="#productos">Productos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
-                </nav>
-            </section>
-            
-            <section class="imglogo">
-                <img src="MEDIA/WHIATPETS-removebg-preview.png" alt="Logo">
-            </section>
-             
-            <section class="textoencabezado">
-                <h1>INSUMOS VETERINARIOS</h1>
-            </section>
-        </header>
-    
-    </body>
-    </html>
-    
 
-    <!-- Main Section -->
-    <main id="home">
-        <section class="hero">
-            <div class="hero-text">
-                <h2>PYMES Y VENDEDORES</h2>
-                <p>En Whiat Company Pets conectamos los diferentes puntos de venta físicos en Cali, Medellín, Manizales y Bogotá para ofrecer los precios más competitivos en nuestros productos. Nuestro servicio de logística y almacenamiento mitiga los factores de escasez y transporte, ayudando a las PYMES a mantener sus ventas sin comprometer la disponibilidad ni la competencia justa.
-                </p>
+<!-- Header -->
+<header class="bg-dark text-white py-3">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="MEDIA/WHIATPETS-removebg-preview.png" alt="Logo" class="img-fluid" style="max-width: 150px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">DISTRIBUIDORA VETERINARIA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#productos" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#alimentos">Alimentos</a></li>
+                            <li><a class="dropdown-item" href="#medicamentos">Medicamentos</a></li>
+                            <li><a class="dropdown-item" href="#accesorios">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
             </div>
-        </section>
+        </div>
+    </nav>
+</header>
 
-        <section class="hero">
-            <div class="hero-text">
-                <h2>¿COMO COMPRAR? y ¿COMO PAGAR?</h2>
-                <p>
-                    Debes solicitar la reserva de tu pedido con al menos 4 horas de anticipación para que la bodega tenga tiempo suficiente de preparar y asignar tu mercancía. El costo del traslado para pedidos de 100 kg o más deberá ser asumido por el comprador. Para pedidos que superen los 100 kg, se deberá cancelar el 50% del valor de la solicitud de forma virtual o en pago físico, y el 50% restante al momento de recibir el pedido. Si tu pedido no supera los 100 kg y está dentro de nuestra zona de cobertura, será enviado el mismo día para pedidos realizados antes de las 12 p.m., y al día siguiente en horas de la mañana si se realiza en la tarde.
-
-   </p>
-            </div>
-        </section>
-
-        <!-- seccion para los parrafos  o infomacion importante-->
-
-
-
-
-
-
-       
-
-        <!-- Contacto -->
-        <section id="contacto">
-            <h2>Contáctanos</h2>
-            
-        </section>
-    </main>
-
-     <!-- Icono de WhatsApp -->
-     <a href="https://wa.me/+573042286435" target="_blank" class="whatsapp-icon">
-        <img src="MEDIA/WHATSAPP_LOGO-removebg-preview.png" alt="WhatsApp">
-    </a>
-
-    <!-- Footer -->
+<!-- Main Section -->
+<main id="home">
     
-    <footer class="footer">
-        <section id="home">
-            <h1>SERVICIOS PRESTADOS POR WHIAT COMPANY</h1>
-    
+    <section class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h2 class="display-4">PYMES Y VENDEDORES</h2>
+            <p class="lead">
+                Whiat Company Pets: Tu Aliado en Insumos Veterinarios para el Cuidado Animal
 
-        <section class="imagenfooter">
-            <a href="https://wa.me/+5493513052333" target="_blank">
-                <img src="MEDIA/COMPANY.png" alt="whiatcompany">
-            </a>
-        </section>
-
-        <section>
-    <button class="custom-button" onclick="window.location.href='https://matiasfelipew.github.io/Whiat/'">
-        WHIAT COMPANY
-    </button>
+                En Whiat Company Pets estamos comprometidos en ofrecer soluciones integrales para el sector de mascotas en Colombia. Conectamos puntos de venta físicos en las principales ciudades del país, incluyendo Cali, Medellín, Manizales y Bogotá, con una red de distribución mayorista de productos veterinarios, medicamentos, concentrados y otros insumos especializados.
+                
+                Nuestro catálogo incluye una amplia variedad de productos de alta calidad, seleccionados para satisfacer las necesidades de las tiendas de mascotas y clínicas veterinarias. Desde concentrados nutricionales y suplementos hasta medicamentos y accesorios, en Whiat Company Pets trabajamos para garantizar que nuestros socios comerciales cuenten con los insumos necesarios para el bienestar animal.
+                
+                Además, nuestro equipo se enfoca en brindar un servicio eficiente y confiable, asegurando entregas oportunas en cada ciudad. Al elegirnos como tu proveedor mayorista, adquieres no solo productos de confianza, sino también un aliado que entiende las necesidades del mercado y apoya el crecimiento de tu negocio en el sector veterinario.
+                
+                ¡Únete a nuestra red y contribuyamos juntos al cuidado de las mascotas en Colombia!
+            </p>
+        </div>
     </section>
 
-        <p>click en el email:
-            <a href="mailto:matiaswhiat@mail.de">matiaswhiat@mail.de</a>
-        </p>
-        <a href="https://www.serviciosvirtuales.com.co/es/camara/manizales/certificados/" target="_blank">
-            <p>&copy; 2024 WHIAT COMPANY, MATRICULA MERCANTIL  #239746, Manizales, Caldas, Colombia." Todos los derechos reservados.</p>
-        </a>
-            </footer>
+    <section class="jumbotron jumbotron-fluid text-center bg-light">
+        <div class="container">
+            <h2 class="display-4">¿CÓMO COMPRAR? y ¿CÓMO PAGAR?</h2>
+            <p class="lead">
+                Reserva y Formas de Pago en Whiat Company Pets
 
-    <script src="scripts.js"></script>
+                Para asegurar que tu pedido esté listo a tiempo, solicita tu reserva al menos 4 horas antes. Ofrecemos opciones de pago flexibles para tu comodidad: puedes pagar a través de PSE desde cualquier banco colombiano o usar Bold si tienes una tarjeta de pago internacional. También aceptamos pagos en dólares a través de Western Union y PayPal, o directamente con tu tarjeta internacional física para montos superiores a 2000 USD.
+                
+                Estamos aquí para facilitar tu experiencia de compra y garantizar un proceso seguro y confiable. ¡Gracias por elegirnos!
+            </p>
+        </div>
+    </section>
+</main>
+
+<!-- Contacto -->
+<section id="contacto" class="container my-5">
+    <h2 class="text-center mb-4">Contáctanos</h2>
+    <!-- Formulario de contacto aquí -->
+</section>
+
+<!-- Icono de WhatsApp -->
+<a href="https://wa.me/+573042286435" target="_blank" class="whatsapp-icon">
+    <img src="MEDIA/WHATSAPP_LOGO-removebg-preview.png" alt="WhatsApp" class="img-fluid" style="width: 60px;">
+</a>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <h5>SERVICIOS PRESTADOS POR WHIAT COMPANY</h5>
+        <a href="https://wa.me/+5493513052333" target="_blank">
+            <img src="MEDIA/COMPANY.png" alt="whiatcompany" class="img-fluid my-2" style="max-width: 200px;">
+        </a>
+        <p>Haz clic en el email: <a href="mailto:matiaswhiat@mail.de" class="text-light">matiaswhiat@mail.de</a></p>
+        <p>&copy; 2024 WHIAT COMPANY, MATRICULA MERCANTIL #239746, Manizales, Caldas, Colombia. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<!-- JavaScript de Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
+

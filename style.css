@@ -1,4 +1,7 @@
 
+#home p {
+    text-align: justify;
+}
 
 
 /* Media Query específica para iPhone 14 Pro Max (y pantallas de hasta 430px de ancho) */
